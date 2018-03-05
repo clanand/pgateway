@@ -1,0 +1,17 @@
+
+spring:
+    application:
+        name: paymentsgateway
+server:
+    port: 9000
+ 
+---
+
+spring:
+    profiles: dev
+
+operations:
+    restURL: https://hblpgw.2c2p.com/HBLPGW/Payment/Payment/Payment
+
+ 
+    
